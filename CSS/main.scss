@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import 'reset';
+@import 'media';
+// main style 
+
+main {
+    width: 100%;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    .carte {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        padding: 2em;
+        border-radius: 0.5em;
+        max-width: 340px;
+        gap: 0.5em;
+        overflow: hidden;
+
+        h2 {
+            font-weight: bold;
+        }
+    }
+    .item1 {
+        font-size: 1rem;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: hsl(256, 67%, 59%);
+        h2 {
+            font-size: 2.5rem;
+
+            span {
+                color:  hsl(39, 100%, 71%);
+            }
+        }
+        img {
+            max-width: 10em;
+            justify-self: center;
+        }
+    }
+
+    .item2 {
+        padding: 20px;
+        h2 {
+            font-size: 1.1rem;
+            margin-top: 0.5em;
+        }
+    }
+    .item3 {
+        gap: 0.8em;
+        padding: 20px;
+        padding-right: 4em;
+        padding-bottom: 0;
+        background-color: hsl(39, 100%, 71%);
+        h2 {
+            font-size: 1.2rem;
+        }
+        img {
+            transform: translateY(20px);
+            max-width: 10em;
+        }
+    }
+    .item4  {
+        text-align: center;
+        background-color:  hsl(254, 88%, 90%);
+        h2 {
+            font-size: 1.1rem;
+        }
+        img {
+            margin: 1em 0;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+    .item5 {
+        padding: 1em 3em;
+        text-align: center;
+        color: #fff;
+        background-color: hsl(256, 67%, 59%)
+        ;
+    }
+    .item6 {
+        h2 {
+            font-size: 2.3rem;
+        }
+        p{
+            margin: 1em 0;
+        }
+        img {
+            max-width: 10em;
+        }
+    }
+    .item7 {
+        background-color:  hsl(31, 66%, 93%);
+        h2 {
+            font-size: 1.3rem;
+            span {
+                color: hsl(256, 67%, 59%)
+                ;
+                font-weight: bold;
+            }
+        }
+        img {
+            max-width: 10em ;
+            margin: 1em 0;
+            margin-bottom: 0;
+        }
+    }
+    .item8  {
+        background-color:  hsl(39, 100%, 71%);
+        padding: 1.3em;
+        img {
+            max-width: 13em;
+            margin-top: 1em;
+        }
+    }
+}

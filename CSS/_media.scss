@@ -1,0 +1,90 @@
+@media screen and (min-width:768px)  {
+    main {
+      display: grid !important;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 220px 200px;
+      max-width: 1100px;
+      grid-template-areas: 
+      "item7 item1 item1 item4"
+      "item8 item2 item3 item4"
+      "item8 item6 item5 item5"
+      ;
+      .carte {
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .item1 {
+        grid-area: item1;
+      }
+      .item2 {
+        padding: 1em 0 1em 1em  !important;
+        
+        h2 {
+          font-size: 1.5rem !important;
+        }
+        img {
+          width: fit-content !important;
+          max-width: 300px !important;
+        }
+        grid-area: item2;
+      }
+      .item3 {
+        font-size: 1.5rem !important;
+        grid-area: item3;
+        img {
+          width: fit-content !important ;
+          max-width: 200px !important;
+          transform: translate(0) !important;
+        }
+      }
+      .item4 {
+        text-align: start !important;
+        font-size: 1.8rem;
+        grid-area: item4;
+        padding: 1em 0 1em 1em  !important;
+        h2 {
+          width: 100%;
+          font-size: 1.5rem !important;
+        }
+        img {
+          width: fit-content !important;
+          max-width: 300px !important;
+        }
+      }
+      .item5 {
+        display: flex !important;
+        align-items: end;
+        text-align: start   !important;
+        img {
+          max-width: 200px;
+        }
+        grid-area: item5;
+      }
+      .item6 {
+        h2 {
+          font-size: 1.6rem !important;
+        }
+        p{
+          margin: 5px !important;
+        }
+        img {
+          width: fit-content !important ;
+          max-width: 150px !important;
+        }
+        grid-area: item6;
+      }
+      .item7 {
+        min-height: 320px !important;
+        grid-area: item7;
+      }
+      .item8 {
+        font-size: 1.3rem;
+        grid-area: item8;
+        padding: 1em !important;
+        img {
+          width: fit-content !important;
+          max-width: 200px !important;
+        }
+      }
+    }
+}
